@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", 127.0.0.1 - - [26/Jun/2025 20:17:18] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jun/2025 20:17:18] "GET /style.css HTTP/1.1" 304 -
+127.0.0.1 - - [26/Jun/2025 20:17:18] "GET /script.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jun/2025 20:17:20] code 404, message File not found
+127.0.0.1 - - [26/Jun/2025 20:17:20] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [27/Jun/2025 06:20:43] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [27/Jun/2025 06:20:43] "GET /style.css HTTP/1.1" 304 -
+127.0.0.1 - - [27/Jun/2025 06:20:44] "GET /script.js HTTP/1.1" 304 -
+127.0.0.1 - - [27/Jun/2025 06:24:19] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [27/Jun/2025 06:38:24] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [27/Jun/2025 06:40:42] "GET / HTTP/1.1" 304 -
+erver_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
